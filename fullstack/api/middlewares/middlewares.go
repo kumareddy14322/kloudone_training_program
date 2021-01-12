@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/kumareddy14322/fullstack/api/auth"
-	"github.com/kumareddy14322/fullstack/api/responses"
+	"github.com/kumareddy14322/kloudone_training_program/fullstack/api/auth"
+	"github.com/kumareddy14322/kloudone_training_program/fullstack/api/responses"
 )
 
 func SetMiddlewareJSON(next http.HandlerFunc) http.HandlerFunc {

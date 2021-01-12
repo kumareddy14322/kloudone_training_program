@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/jinzhu/gorm"
-	"github.com/kumareddy14322/fullstack/api/models"
+	"github.com/kumareddy14322/kloudone_training_program/fullstack/api/models"
 )
 
 var users = []models.User{

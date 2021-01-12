@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/kumareddy14322/fullstack/api/auth"
-	"github.com/kumareddy14322/fullstack/api/models"
-	"github.com/kumareddy14322/fullstack/api/responses"
-	"github.com/kumareddy14322/fullstack/api/utils/formaterror"
+	"github.com/kumareddy14322/kloudone_training_program/fullstack/api/auth"
+	"github.com/kumareddy14322/kloudone_training_program/fullstack/api/models"
+	"github.com/kumareddy14322/kloudone_training_program/fullstack/api/responses"
+	"github.com/kumareddy14322/kloudone_training_program/fullstack/api/utils/formaterror"
 	"golang.org/x/crypto/bcrypt"
 )
 
