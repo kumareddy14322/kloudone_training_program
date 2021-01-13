@@ -1,5 +1,8 @@
 # kloudone_training_program
 
+
+ NOTE : THIS README.MD FILE BELONS TO FULL FOLDER IN THIS REPOSITORY
+
 We will build a blog application where a user can:
 
 Signup (Register)
