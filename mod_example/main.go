@@ -9,6 +9,7 @@ import (
 
 func  main()  {
 	fmt.Println("hi world")
+	fmt.Println("hi kimar")
 	sample.MySampleFunction()
 	
 }
