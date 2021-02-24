@@ -19,7 +19,7 @@ type App struct {
 
 func (a *App) Initialize() {
 	ctx, _ := context.WithTimeout(context.Background(), 10*time.Second)
-	client, err := mongo.Connect(ctx, options.Client().ApplyURI(os.Getenv("MONGO_URI")))
+	client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb://localhost:27017/"))
 
 	if err != nil {
 		log.Fatalf("Application could not connect to database.\nError: %s", err.Error())
