@@ -13,7 +13,7 @@ func main() {
 		log.Fatalf("failed to listen on port9000: %v",err)
 	}
 
-	grpcServer:=grpc.NewSever()
+	grpcServer := grpc.NewServer()
 
 	if err :=grpcServer.Serve(lis);
 	err !=nil{
